@@ -16,13 +16,13 @@
       </style>
     <title>Portfolio</title>
 </head>
-<body>
+<body class="bg-slate-50 h-screen">
 
     <!-- EN TETE -->
     <header>
 
       <!-- MENU DE NAVIGATION -->
-      <nav class="bg-slate-50 sm:flex sm:justify-end ">
+      <nav class=" sm:flex sm:justify-end ">
         <!-- mx-auto -->
         <div class=" max-w-7xl px-2 sm:px-6 lg:px-8">
           <div class="relative flex h-16 items-center justify-between">
@@ -80,16 +80,50 @@
 
     </header>
 
-    <main class="bg-slate-50 h-screen">
+    <main>
 
       <!-- 1ER SECTION -->
-      <section>
+      <section class="flex flex-col mx-7 mt-7 lg:flex-row ">
+           <div class="mt-7  lg:w-1/2 ">
+              <h1 class="text-center text-4xl font-bold mt-5">Tatiana Juin</h1>
+              <h2 class=" text-center text-2xl font-medium mt-3">Développeuse </h2>
+              <p class="text-center text-lg mt-3 ">Je suis passionnée par le code depuis de nombreuse années . Ici tu vas retrouver mes projets réalisé  </p>
+           </div>
+           
+           <div class=" flex mt-7 lg:w-1/2   lg:justify-center">
+            <img class="w-96 " src="img/profil.png" alt="Image d'un blog ">
+          </div>
+      </section>
 
+      
+
+      <!--  SECTION PROJET  -->
+      <section>
+        <!-- Titre de la section -->
+          <h2 class="font-bold text-xl text-center mt-7 " id="video">Mes projets </h2>
         
-            <h1 class="text-center text-4xl font-bold">Tatiana Juin</h1>
-            <h2 class=" text-center text-2xl font-medium mt-3">Développeuse </h2>
-            <p class="text-center text-lg mt-3 ">Je créer des sites internet en HTML, CSS , JS , PHP et SQL . </p>
-       
+        <div class="flex flex-col mx-7 mt-7 md:flex-row md:justify-center md:flex-wrap lg:justify-start lg:mx-32">
+
+          <!-- 1ER projet -->
+            <div class="mt-5 border border-solid border-red mr-5 md:w-96 md:flex md:flex-col  md:mb-5">
+                <img class="w-full md:w-96" src="img/blog2.jpg" alt="image pour video">
+                <h3 class="font-bold mt-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eos molestiae quod, ullam totam expedita.</h3>
+                <a href="#" class=" block text-center bg-purple-100 px-9 py-1 mx-auto my-5 rounded-lg cursor-pointer w-32">lorem</a>
+            </div>
+            
+                <!-- 2EME Projet -->
+            <div class="mt-5 border border-solid border-red mr-5 md:w-96 md:flex md:flex-col  md:mb-5">
+              <img class="w-full md:w-96" src="img/blog2.jpg" alt="image pour video">
+              <h3 class="font-bold mt-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eos molestiae quod, ullam totam expedita.</h3>
+              <a href="#" class=" block text-center bg-purple-100 px-9 py-1 mx-auto my-5 rounded-lg cursor-pointer w-32">lorem</a>
+            </div>
+            
+           
+
+        </div>
+
+             
+
       </section>
 
     </main>
